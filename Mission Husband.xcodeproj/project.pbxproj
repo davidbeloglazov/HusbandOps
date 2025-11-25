@@ -6,17 +6,38 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		83D2DAC22EB275CC0017C70C /* Mission Husband.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mission Husband.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		83617DD42ED21E7200038B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83617DCE2ED21E7200038B19 /* Assets.xcassets */; };
+		83617DD62ED21E7200038B19 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DD02ED21E7200038B19 /* MainAppView.swift */; };
+		83617DD72ED21E7200038B19 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DC92ED21E7200038B19 /* DataModels.swift */; };
+		83617DD82ED21E7200038B19 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DD12ED21E7200038B19 /* MainTabView.swift */; };
+		83617DDA2ED21E7200038B19 /* Mission_HusbandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DD22ED21E7200038B19 /* Mission_HusbandApp.swift */; };
+		83617DDB2ED21E7200038B19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DCF2ED21E7200038B19 /* ContentView.swift */; };
+		83617DDC2ED21E7200038B19 /* LearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DB62ED21E7200038B19 /* LearningView.swift */; };
+		83617DDD2ED21E7200038B19 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DCC2ED21E7200038B19 /* AppTheme.swift */; };
+		83617DDE2ED21E7200038B19 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DC82ED21E7200038B19 /* AppState.swift */; };
+		83617DDF2ED21E7200038B19 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DBD2ED21E7200038B19 /* ProfileView.swift */; };
+		83617DE02ED21E7200038B19 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DA92ED21E7200038B19 /* CommunityView.swift */; };
+		83617DE12ED21E7200038B19 /* DailyMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617DB42ED21E7200038B19 /* DailyMissionView.swift */; };
+		83617E662ED61C4C00038B19 /* NewOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83617E652ED61C4C00038B19 /* NewOnboardingView.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		83D2DAC42EB275CC0017C70C /* Mission Husband */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Mission Husband";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		83617DA92ED21E7200038B19 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		83617DB42ED21E7200038B19 /* DailyMissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMissionView.swift; sourceTree = "<group>"; };
+		83617DB62ED21E7200038B19 /* LearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningView.swift; sourceTree = "<group>"; };
+		83617DBD2ED21E7200038B19 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		83617DC82ED21E7200038B19 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		83617DC92ED21E7200038B19 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		83617DCC2ED21E7200038B19 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		83617DCE2ED21E7200038B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83617DCF2ED21E7200038B19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83617DD02ED21E7200038B19 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		83617DD12ED21E7200038B19 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		83617DD22ED21E7200038B19 /* Mission_HusbandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission_HusbandApp.swift; sourceTree = "<group>"; };
+		83617DE22ED21EDF00038B19 /* Mission Husband.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mission Husband.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83617E652ED61C4C00038B19 /* NewOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		83D2DABF2EB275CC0017C70C /* Frameworks */ = {
@@ -29,20 +50,120 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83617DAA2ED21E7200038B19 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				83617DA92ED21E7200038B19 /* CommunityView.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		83617DB52ED21E7200038B19 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83617DB42ED21E7200038B19 /* DailyMissionView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		83617DB72ED21E7200038B19 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				83617DB62ED21E7200038B19 /* LearningView.swift */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		83617DB82ED21E7200038B19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83617DBB2ED21E7200038B19 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				83617E652ED61C4C00038B19 /* NewOnboardingView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		83617DBC2ED21E7200038B19 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				83617DB82ED21E7200038B19 /* View */,
+				83617DBB2ED21E7200038B19 /* ViewModel */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		83617DBE2ED21E7200038B19 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				83617DBD2ED21E7200038B19 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		83617DC52ED21E7200038B19 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				83617DAA2ED21E7200038B19 /* Community */,
+				83617DB52ED21E7200038B19 /* Home */,
+				83617DB72ED21E7200038B19 /* Learning */,
+				83617DBC2ED21E7200038B19 /* Onboarding */,
+				83617DBE2ED21E7200038B19 /* Profile */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		83617DCA2ED21E7200038B19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83617DC82ED21E7200038B19 /* AppState.swift */,
+				83617DC92ED21E7200038B19 /* DataModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83617DCB2ED21E7200038B19 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		83617DCD2ED21E7200038B19 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				83617DCC2ED21E7200038B19 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		83617DD32ED21E7200038B19 /* Mission Husband */ = {
+			isa = PBXGroup;
+			children = (
+				83617DC52ED21E7200038B19 /* Core */,
+				83617DCA2ED21E7200038B19 /* Models */,
+				83617DCB2ED21E7200038B19 /* Service */,
+				83617DCD2ED21E7200038B19 /* Theme */,
+				83617DCE2ED21E7200038B19 /* Assets.xcassets */,
+				83617DCF2ED21E7200038B19 /* ContentView.swift */,
+				83617DD02ED21E7200038B19 /* MainAppView.swift */,
+				83617DD12ED21E7200038B19 /* MainTabView.swift */,
+				83617DD22ED21E7200038B19 /* Mission_HusbandApp.swift */,
+			);
+			path = "Mission Husband";
+			sourceTree = "<group>";
+		};
 		83D2DAB92EB275CC0017C70C = {
 			isa = PBXGroup;
 			children = (
-				83D2DAC42EB275CC0017C70C /* Mission Husband */,
-				83D2DAC32EB275CC0017C70C /* Products */,
+				83617DD32ED21E7200038B19 /* Mission Husband */,
+				83617DE22ED21EDF00038B19 /* Mission Husband.app */,
 			);
-			sourceTree = "<group>";
-		};
-		83D2DAC32EB275CC0017C70C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				83D2DAC22EB275CC0017C70C /* Mission Husband.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,14 +181,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				83D2DAC42EB275CC0017C70C /* Mission Husband */,
-			);
 			name = "Mission Husband";
 			packageProductDependencies = (
 			);
 			productName = "Mission Husband";
-			productReference = 83D2DAC22EB275CC0017C70C /* Mission Husband.app */;
+			productReference = 83617DE22ED21EDF00038B19 /* Mission Husband.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -78,7 +196,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					83D2DAC12EB275CC0017C70C = {
 						CreatedOnToolsVersion = 26.0.1;
@@ -95,7 +213,7 @@
 			mainGroup = 83D2DAB92EB275CC0017C70C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 83D2DAC32EB275CC0017C70C /* Products */;
+			productRefGroup = 83D2DAB92EB275CC0017C70C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83617DD42ED21E7200038B19 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +238,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83617DD62ED21E7200038B19 /* MainAppView.swift in Sources */,
+				83617DD72ED21E7200038B19 /* DataModels.swift in Sources */,
+				83617DD82ED21E7200038B19 /* MainTabView.swift in Sources */,
+				83617DDA2ED21E7200038B19 /* Mission_HusbandApp.swift in Sources */,
+				83617E662ED61C4C00038B19 /* NewOnboardingView.swift in Sources */,
+				83617DDB2ED21E7200038B19 /* ContentView.swift in Sources */,
+				83617DDC2ED21E7200038B19 /* LearningView.swift in Sources */,
+				83617DDD2ED21E7200038B19 /* AppTheme.swift in Sources */,
+				83617DDE2ED21E7200038B19 /* AppState.swift in Sources */,
+				83617DDF2ED21E7200038B19 /* ProfileView.swift in Sources */,
+				83617DE02ED21E7200038B19 /* CommunityView.swift in Sources */,
+				83617DE12ED21E7200038B19 /* DailyMissionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +315,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -241,6 +373,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -261,6 +394,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -269,12 +403,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "beloglazov.Mission-Husband";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,6 +431,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,12 +440,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "beloglazov.Mission-Husband";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

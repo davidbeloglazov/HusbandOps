@@ -7,11 +7,12 @@
 
 import SwiftUI
 
-@main
-struct Mission_HusbandApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct Mission_HusbandApp: View {
+  var body: some View {
+    NavigationStack {
+      Text("Main App")
+        .navigationTitle("Home")
     }
+  }
 }
+

@@ -313,7 +313,8 @@ struct AnalysisView: View {
             Spacer().frame(height: 40)
             HStack { Text("Analysis Complete").font(.title2).fontWeight(.bold); Image(systemName: "checkmark.circle.fill").foregroundColor(.green) }
             Text("We’ve got some news to break to you…").font(.subheadline).foregroundColor(.gray)
-            Text("Your responses indicate that your Relationship Strain Index is higher than average*").multilineTextAlignment(.center).padding(.horizontal).font(.title3).fontWeight(.semibold).padding(.vertical, 10)
+            Text("Your responses indicate that your Relationship Strain Index is higher than average*").multilineTextAlignment(.center).padding(.horizontal).font(.title3).fontWeight(.semibold).padding(.vertical, 10).fixedSize(horizontal: false, vertical: true)
+            
             Spacer()
             HStack(alignment: .bottom, spacing: 60) {
                 VStack { Text("64%").font(.headline).padding(6).background(Color.white.opacity(0.1)).cornerRadius(4).padding(.bottom, 4); Rectangle().fill(Color.red).frame(width: 60, height: 220).cornerRadius(8, corners: [.topLeft, .topRight]); Text("Your Score").font(.caption).fontWeight(.bold).padding(.top, 8) }
@@ -542,25 +543,27 @@ struct StabilityGraphView: View {
         VStack {
             Text("Operational Benefits").font(.headline).padding()
             Spacer()
-            ZStack {
-                RoundedRectangle(cornerRadius: 16).fill(Color.black.opacity(0.5)).overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.white.opacity(0.2)))
-                VStack {
-                    HStack { Text("Household Stability"); Spacer(); Text("HUSBAND OPS").fontWeight(.bold) }.padding()
-                    Spacer()
-                    // Simplified Graph Representation
-                    HStack(alignment: .bottom, spacing: 0) {
-                        ForEach(0..<10) { i in
-                            Rectangle().fill(Color.red.opacity(0.5)).frame(width: 10, height: CGFloat.random(in: 20...100))
-                            Spacer()
-                        }
-                    }.frame(height: 100).padding()
-                    
-                    Path { path in
-                        path.move(to: CGPoint(x: 20, y: 150))
-                        path.addCurve(to: CGPoint(x: 300, y: 20), control1: CGPoint(x: 100, y: 150), control2: CGPoint(x: 200, y: 20))
-                    }.stroke(Color.green, lineWidth: 3).frame(height: 150)
-                }
-            }.frame(height: 300).padding()
+//            ZStack {
+//                RoundedRectangle(cornerRadius: 16).fill(Color.black.opacity(0.5)).overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.white.opacity(0.2)))
+//                VStack {
+//                    HStack { Text("Household Stability"); Spacer(); Text("HUSBAND OPS").fontWeight(.bold) }.padding()
+//                    Spacer()
+//                    // Simplified Graph Representation
+//                    HStack(alignment: .bottom, spacing: 0) {
+//                        ForEach(0..<10) { i in
+//                            Rectangle().fill(Color.red.opacity(0.5)).frame(width: 10, height: CGFloat.random(in: 20...100))
+//                            Spacer()
+//                        }
+//                    }.frame(height: 100).padding()
+//                    
+//                    Path { path in
+//                        path.move(to: CGPoint(x: 20, y: 150))
+//                        path.addCurve(to: CGPoint(x: 300, y: 20), control1: CGPoint(x: 100, y: 150), control2: CGPoint(x: 200, y: 20))
+//                    }.stroke(Color.green, lineWidth: 3).frame(height: 150)
+//                }
+//            }.frame(height: 300).padding()
+            
+            Text("📈").font(.title).padding()
             
             Text("HUSBAND OPS helps you reduce conflict 76% faster than counseling alone. 📈").padding()
             Spacer()
@@ -822,9 +825,9 @@ struct BreakStagnationView: View {
             Text("Break the stagnation today").font(.title).fontWeight(.bold)
             Spacer()
             HStack {
-                Rectangle().fill(Color.gray.opacity(0.3)).frame(width: 100, height: 200).overlay(Text("Daily Brief"))
-                Rectangle().fill(Color.gray.opacity(0.3)).frame(width: 100, height: 200).overlay(Text("Intel Library"))
-                Rectangle().fill(Color.gray.opacity(0.3)).frame(width: 100, height: 200).overlay(Text("Progress Map"))
+                Rectangle().fill(Color.gray.opacity(0.3)).frame(width: 100, height: 200).overlay(Text("🟥"))
+                Rectangle().fill(Color.gray.opacity(0.3)).frame(width: 100, height: 200).overlay(Text("🟦"))
+                Rectangle().fill(Color.gray.opacity(0.3)).frame(width: 100, height: 200).overlay(Text("🟩"))
             }
             Spacer()
             Button(action: onNext) {
